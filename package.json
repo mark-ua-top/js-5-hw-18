@@ -1,5 +1,5 @@
 {
-  "homepage": "https://mark-ua-top.github.io/HW-18-react",
+  "homepage": "https://mark-ua-top.github.io/js-5-hw-18/",
   "name": "js-5-hw-18",
   "version": "0.1.0",
   "private": true,
@@ -17,8 +17,10 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build --branch gh-pages"
   },
   "eslintConfig": {
     "extends": [
